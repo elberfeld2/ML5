@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis  red neuronal.</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="container pt-3">
+        <diw class="row">
+            <div class="col-md-12">
+                <h2>Análisis  red neuronal.</h2>
+                <p>Análisis  de data iris con ML5.</p>
+            </div>
+            <div class="col-md-12">
+                <h4><a id="bDatos" href="#vDatos">Datos</a></h4>
+            </div>
+            <div class="col-md-12" id="vDatos">
+                <p>Datos del dataset data iris.</p>
+                <p>Estos datos se partirán  en dos datos para entrenamiento y datos para testeo.</p>
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th>sepalLength</th>
+                        <th>sepalWidth</th>
+                        <th>petalLength</th>
+                        <th>petalWidth</th>
+                        <th>species</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tDatos">
+                    </tbody>
+                  </table>
+            </div>
+            <div class="col-md-12">
+                <h4><a id="bDatosEnt" href="#vDatosEnt">Datos de entrenamiento.</a></h4>
+            </div>
+            <div class="col-md-12" id="vDatosEnt">
+                <p>Con estos datos entrenaremos la red.</p>
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th>sepalLength</th>
+                        <th>sepalWidth</th>
+                        <th>petalLength</th>
+                        <th>petalWidth</th>
+                        <th>species</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tDatosEnt">
+                    </tbody>
+                  </table>
+            </div>
+            
+            <div class="col-md-12">
+                <h4><a id="bRed" href="#vRed">Red neuronal.</a></h4>
+            </div>
+            <div class="col-md-12" id="vRed">
+                <p>Creamos la red neuronal con 20 épocas y la entrenaremos con los datos de entrenamiento.</p>
+                <br>  
+            </div>
+            <div class="col-md-12">
+                <h4><a id="bEpocas" href="#vEpocas">Entrenamiento</a></h4>
+            </div>
+            <div class="col-md-12" id="vEpocas">
+                <h6>La red neuronal ha sido creada.</h6>
+                <p>Se está  iniciando el entrenamiento espera a que terminen las 20 épocas.</p>
+                <br>  
+            </div>
+            <div class="col-md-12">
+                <h4><a id="bDatosTes" href="#vDatosTes">Testeo</a></h4>
+            </div>
+            <div class="col-md-12" id="vDatosTes">
+                <p>Una vez terminado el entrenamiento testearemos la eficacia con datos que no estuvieron en el entrenamiento y en apartado clasificación  veremos que clase le otorgo la red neuronal.</p>
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th>sepalLength</th>
+                        <th>sepalWidth</th>
+                        <th>petalLength</th>
+                        <th>petalWidth</th>
+                        <th>species</th>
+                        <th>clasificado</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tDatosTes">
+                    </tbody>
+                  </table>
+            </div>
+        </diw>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
