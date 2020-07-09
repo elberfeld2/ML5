@@ -7,12 +7,6 @@ let rojo_slider, verde_slider, azul_slider
 //Resultado de la predicion 
 let label_resultados
 
-//Muestra del estado del entrenamiento
-let entrenando = document.getElementById("entrenando")
-
-//Muestra del estado de cada epoca
-let epocas = document.getElementById("epocas")
-
 //Funcion para las opciones
 const agregarPadre = (padre)=>(hijo)=>hijo.parent(padre)
 
