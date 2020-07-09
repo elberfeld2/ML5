@@ -4,7 +4,10 @@ Son dos proyectos para probar como funciona ML5 y poder entrenar y usar una red 
 
 ## Ligas de redes neuronales
 
-[Clasificador de color](https://elberfeld2.github.io/ML5/Red_neuronal_color_classifier/)
+[Clasificador de color](https://elberfeld2.github.io/ML5/Red_neuronal_color_classifier/) 
+
+Clasificador con el modelo ya entrenado
+[Colores](https://elberfeld2.github.io/ML5/Colores/)
 
 
 [Analisis iris data](https://elberfeld2.github.io/ML5/Red_neuronal_iris_data/)
